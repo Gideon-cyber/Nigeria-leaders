@@ -7,8 +7,8 @@ export const Card = (props) => {
     <div className="card">
       {/* <img alt="leader" src={require(`./img/image${props.leader.id}.jpg`)} /> */}
       <img
-        alt="leader"
-        src={process.env.PUBLIC_URL + `image${props.leader.id}.jpg`}
+        alt=""
+        src={process.env.PUBLIC_URL + `/image${props.leader.id}.jpg`}
       />
       <h2>{props.leader.name}</h2>
       <p>{props.leader.year}</p>
